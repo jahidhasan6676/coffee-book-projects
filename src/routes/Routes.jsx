@@ -32,7 +32,7 @@ const router = createBrowserRouter([
             ],
         },
         {
-            path:'/coffees',
+            path:'/allcoffees',
             loader:()=> fetch("../coffees.json"),
             element:<Coffee></Coffee>
         },

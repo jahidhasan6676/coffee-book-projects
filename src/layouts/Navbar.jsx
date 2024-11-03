@@ -26,7 +26,7 @@ const Navbar = () => {
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         <NavLink to="/" className={({ isActive }) => `font-bold ${isActive ? 'text-warning' : 'hover:text-warning'}`}>Home</NavLink>
 
-                        <NavLink to="/coffees" className={({ isActive }) => `font-bold ${isActive ? 'text-warning' : 'hover:text-warning'}`}>Coffees</NavLink>
+                        <NavLink to="/allcoffees" className={({ isActive }) => `font-bold ${isActive ? 'text-warning' : 'hover:text-warning'}`}>Coffees</NavLink>
 
                         <NavLink to="/dashboard" className={({ isActive }) => `font-bold ${isActive ? 'text-warning' : 'hover:text-warning'}`}>Dashboard</NavLink>
 
@@ -38,7 +38,7 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal gap-8">
                     <NavLink to="/" className={({ isActive }) => `font-bold ${isActive ? 'text-warning' : 'hover:text-warning'}`}>Home</NavLink>
 
-                    <NavLink to="/coffees" className={({ isActive }) => `font-bold ${isActive ? 'text-warning' : 'hover:text-warning'}`}>Coffees</NavLink>
+                    <NavLink to="/allcoffees" className={({ isActive }) => `font-bold ${isActive ? 'text-warning' : 'hover:text-warning'}`}>Coffees</NavLink>
 
                     <NavLink to="/dashboard" className={({ isActive }) => `font-bold ${isActive ? 'text-warning' : 'hover:text-warning'}`}>Dashboard</NavLink>
                 </ul>

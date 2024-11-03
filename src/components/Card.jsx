@@ -24,7 +24,7 @@ const Card = ({ coffee,handleRemove }) => {
             </Link>
            
            {
-            pathname === '/dashboard' && (<div onClick={handleRemove} className='absolute -top-5 -right-0 bg-warning cursor-pointer rounded-full'>remove</div>)
+            pathname === '/dashboard' && (<div onClick={()=>handleRemove(coffee.id)} className='absolute -top-5 -right-0 bg-warning cursor-pointer rounded-full'>remove</div>)
            }
         </div>
     );

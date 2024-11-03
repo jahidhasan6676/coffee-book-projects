@@ -12,8 +12,8 @@ const CoffeeDetails = () => {
     useEffect(() => {
         const singleData = allData.find((coffee) => coffee.id === parseInt(id));
         setData(singleData)
-        const storedList = getCardList();
-        if(storedList.includes(id)){
+        const favorite = getCardList();
+        if(favorite.includes(singleData.id)){
             setIsFavorite(true)
         }
     }, [allData, id]);
