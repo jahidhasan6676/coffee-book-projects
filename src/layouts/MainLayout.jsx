@@ -7,7 +7,9 @@ const MainLayout = () => {
     return (
         <div>
             {/* navbar */}
-            <Navbar></Navbar>
+           <div className="h-16">
+           <Navbar></Navbar>
+           </div>
 
             {/* dynamic section */}
             <div className="min-h-[calc(100vh-248px)] py-10">
